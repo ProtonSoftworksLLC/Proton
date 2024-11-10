@@ -289,6 +289,13 @@
             z-index: 2;
         }
 
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
         .image:hover {
             transform: perspective(1000px) rotateY(-15deg);
             box-shadow: 30px 30px 60px rgba(0, 114, 255, 0.4);
@@ -384,6 +391,9 @@
                     Proton
                 </div>
                 <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#showcases">Showcases</a></li>
                     <li><a href="https://discord.gg/NS9dJ76wrW" class="dashboard-btn">
                         <i class="fab fa-discord"></i> Discord
                     </a></li>
@@ -404,7 +414,7 @@
                     </div>
                 </div>
                 <div class="image">
-                    <img src="images/ProtonExec.png" alt="Proton Interface">
+                    <img src="images/ProtonExec.png" alt="Proton Interface" style="width: 100%; height: 100%; object-fit: contain;">
                 </div>
             </div>
         </section>
